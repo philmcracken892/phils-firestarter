@@ -8,6 +8,7 @@ description 'Fire System for RedM'
 version '1.0.0'
 
 shared_scripts {
+    '@ox_lib/init.lua',
     'config.lua'
 }
 
@@ -17,6 +18,10 @@ client_scripts {
 
 server_scripts {
     'server.lua'
+}
+
+files {
+    'locales/*.json',
 }
 
 dependencies {
